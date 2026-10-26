@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>路里v路外 | 懂行的医美老炮，用 AI 把靠谱知识讲明白</title>
+  <meta name="description" content="路里v路外 —— 医美行业内部人 × AI 跨界玩家 × 真诚科普者。专注把靠谱的医美知识讲明白。" />
+  <!-- 站点图标（内联 SVG，零外部依赖） -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c0585a'/%3E%3Cstop offset='1' stop-color='%2346508c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='800'%3E%E8%B7%AF%3C/text%3E%3C/svg%3E" />
+  <!-- 社交分享卡片（微信 / 小红书 / 微博等分享时显示） -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="路里v路外 | 懂行的医美老炮，用 AI 把靠谱知识讲明白" />
+  <meta property="og:description" content="医美行业内部人 × AI 跨界玩家 × 真诚科普者。把复杂、容易被忽悠的医美知识，讲得靠谱、能落地、听得懂。" />
+  <meta property="og:url" content="https://guanyuwo.cn" />
+  <meta property="og:site_name" content="路里v路外" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- 若 JavaScript 被禁用，保留 no-js 类，内容始终可见（防止整页空白）；
+       同时 3 秒强制显示所有滚动揭示元素，作为任何异常情况的兜底。 -->
+  <script>
+    document.documentElement.classList.remove('no-js');
+    setTimeout(function () {
+      var els = document.querySelectorAll('.reveal');
+      for (var i = 0; i < els.length; i++) els[i].classList.add('in');
+    }, 3000);
+  </script>
+
+  <!-- ============ GEO 结构化数据 ①：Person（让 AI 搜索/知识图谱识别“路里v路外”这个实体） ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "路里v路外",
+    "alternateName": "路里路外",
+    "url": "https://guanyuwo.cn",
+    "description": "医美行业内部人（品牌 / 供应链 / 一线服务）× AI 跨界玩家 × 真诚科普者。专注把靠谱、能落地的医美知识讲明白，帮助普通人避开营销话术与消费陷阱。",
+    "email": "mailto:hi@guanyuwo.cn",
+    "jobTitle": "医美科普创作者 / 自媒体博主",
+    "knowsAbout": ["医疗美容", "医美供应链", "医美品牌运营", "人工智能应用", "内容创作"],
+    "sameAs": [
+      "https://guanyuwo.cn"
+      /* 上线后把各平台真实主页加进来，例如：
+         "https://www.douyin.com/user/你的ID",
+         "https://www.xiaohongshu.com/user/profile/你的ID" */
+    ]
+  }
+  </script>
+
+  <!-- ============ GEO 结构化数据 ②：FAQPage（与下方“常见问题”区块内容一一对应） ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "路里v路外是谁？这个号的主理人是什么背景？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "路里v路外是一位医美行业内部人，深耕品牌、供应链与一线服务多年，同时是 AI 跨界玩家与真诚科普者。她（他）用行业实战经验结合 AI 工具，把容易被营销话术掩盖的医美知识讲清楚，帮助普通人建立正确认知、少走弯路。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "guanyuwo.cn 这个网站主要是做什么的？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "这是路里v路外的个人作品与科普站点，集中展示文章、视频、图文三类内容，并提供视频号、抖音、小红书等平台的关注入口，以及品牌合作与内容订阅的洽谈通道。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "路里v路外的科普内容靠谱吗？会构成医疗建议吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "内容定位为面向普通消费者的科普参考，目的是帮助避坑、建立基本认知，不构成任何医疗建议。任何医美项目决策，请以正规医疗机构专业医生的面诊与评估意见为准。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "在哪些平台可以关注路里v路外？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "视频号、抖音、小红书均使用同名账号「路里v路外」，是最主要的更新阵地；此外也可以通过邮箱 hi@guanyuwo.cn 直接联系。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "路里v路外接受商业合作或媒体约稿吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "接受品牌方、医美机构、媒体相关的合作洽谈与约稿。可以通过网站上的「合作 / 订阅」表单留言，也可以直接邮件联系 hi@guanyuwo.cn。"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+
+  <!-- ============ 顶部导航 ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#top">路里<span>v</span>路外</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">关于</a>
+        <a href="#featured">代表作</a>
+        <a href="#works">作品</a>
+        <a href="#faq">常见问题</a>
+        <a href="#connect">联系</a>
+        <a class="btn btn--sm" href="#contact">合作 / 订阅</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="打开菜单">☰</button>
+    </div>
+  </header>
+
+  <!-- ============ 主体内容（语义化 main） ============ -->
+  <main>
+  <!-- ============ 首屏 Hero ============ -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__inner reveal">
+      <div class="hero__avatar">路</div>
+      <p class="hero__eyebrow">医美行业内部人 · AI 跨界玩家 · 真诚科普者</p>
+      <h1 class="hero__title">路里v路外</h1>
+      <p class="hero__tagline">懂行的医美老炮，用 AI 把靠谱知识讲明白。</p>
+      <div class="hero__chips">
+        <span class="chip">品牌 / 供应 / 服务 一线实战</span>
+        <span class="chip">AI 提效 &amp; 创作</span>
+        <span class="chip">只讲靠谱的</span>
+      </div>
+      <div class="hero__cta">
+        <a class="btn" href="#works">看看作品</a>
+        <a class="btn btn--ghost" href="#contact">合作洽谈</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 关于 / 账号定位 ============ -->
+  <section class="section" id="about">
+    <div class="section__head reveal">
+      <span class="kicker">关于我</span>
+      <h2>账号定位 &amp; 我是谁</h2>
+      <p class="lead">在医美行业里摸爬滚打多年，既懂品牌方的打法，也懂供应链的门道，更懂一线服务的坑。现在用 AI 当放大镜，把那些被营销话术掩盖的真相，讲给普通消费者听。</p>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__icon">🩺</div>
+        <h3>医美行业内部人</h3>
+        <p>品牌、供应、服务三线实战经验。知道钱花在哪、效果从哪来、坑埋在哪。</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon">🤖</div>
+        <h3>AI 跨界玩家</h3>
+        <p>把 AI 当生产力工具：做研究、搞创作、拆广告、画科普图，效率拉满。</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon">💡</div>
+        <h3>真诚科普者</h3>
+        <p>不站队、不恰烂钱。只讲有依据、能落地、对你真正有用的内容。</p>
+      </article>
+    </div>
+
+    <div class="about__more reveal">
+      <p>我做过品牌、跑过供应链、也在一线服务过成千上万的求美者。见过太多被“网红项目”带偏的决定，也见过太多花冤枉钱还踩坑的案例。这个号的存在，就是想用我在行业里攒下的经验，加上 AI 带来的信息效率，帮你少走弯路 —— 该做的项目讲清楚，不该做的项目拦住你。</p>
+    </div>
+  </section>
+
+  <!-- ============ 代表作品推荐位 ============ -->
+  <section class="section section--alt" id="featured">
+    <div class="section__head reveal">
+      <span class="kicker">代表作品</span>
+      <h2>这几篇，建议先看</h2>
+    </div>
+    <div class="featured" id="featuredGrid">
+      <!-- 由 assets/js/main.js 根据 works-data.js 渲染 -->
+    </div>
+    <noscript><p style="text-align:center;color:#6f655f;max-width:720px;margin:24px auto 0">代表作品需要启用 JavaScript 才能显示；也可直接在各平台搜索「路里v路外」。</p></noscript>
+  </section>
+
+  <!-- ============ 作品列表（分类筛选） ============ -->
+  <section class="section" id="works">
+    <div class="section__head reveal">
+      <span class="kicker">全部作品</span>
+      <h2>按类型逛一逛</h2>
+    </div>
+
+    <div class="tabs reveal" id="tabs">
+      <button class="tab is-active" data-filter="all">全部</button>
+      <button class="tab" data-filter="article">文章</button>
+      <button class="tab" data-filter="video">视频</button>
+      <button class="tab" data-filter="image">图文</button>
+    </div>
+
+    <div class="works" id="worksGrid">
+      <!-- 由 assets/js/main.js 根据 works-data.js 渲染 -->
+    </div>
+    <noscript><p style="text-align:center;color:#6f655f">作品列表需要启用 JavaScript 才能显示；也可直接在各平台搜索「路里v路外」。</p></noscript>
+  </section>
+
+  <!-- ============ 社交 / 联系方式入口 ============ -->
+  <section class="section section--alt" id="connect">
+    <div class="section__head reveal">
+      <span class="kicker">找到我</span>
+      <h2>视频号 / 抖音 / 小红书</h2>
+      <p class="lead">同一个名字：路里v路外。挑你常用的平台关注就好。</p>
+    </div>
+    <div class="socials" id="socials">
+      <!-- 把下面的 href="#" 换成你的真实主页链接即可 -->
+      <a class="social" href="#" target="_blank" rel="noopener">
+        <span class="social__icon">🟢</span>
+        <span class="social__name">视频号</span>
+        <span class="social__handle">路里v路外</span>
+      </a>
+      <a class="social" href="#" target="_blank" rel="noopener">
+        <span class="social__icon">🎵</span>
+        <span class="social__name">抖音</span>
+        <span class="social__handle">路里v路外</span>
+      </a>
+      <a class="social" href="#" target="_blank" rel="noopener">
+        <span class="social__icon">📕</span>
+        <span class="social__name">小红书</span>
+        <span class="social__handle">路里v路外</span>
+      </a>
+      <a class="social" href="mailto:hi@guanyuwo.cn">
+        <span class="social__icon">✉️</span>
+        <span class="social__name">邮箱</span>
+        <span class="social__handle">hi@guanyuwo.cn</span>
+      </a>
+      <a class="social" href="#" target="_blank" rel="noopener">
+        <span class="social__icon">💬</span>
+        <span class="social__name">微信</span>
+        <span class="social__handle">扫码 / 搜号添加</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ 常见问题（GEO 问答区块：静态 details，无 JS 也可被 AI 搜索抓取） ============ -->
+  <section class="section" id="faq">
+    <div class="section__head reveal">
+      <span class="kicker">常见问题</span>
+      <h2>关于我 &amp; 这个网站</h2>
+      <p class="lead">把大家常问的问题先讲清楚，省得你绕弯路。</p>
+    </div>
+
+    <div class="faq">
+      <details class="faq__item" open>
+        <summary>路里v路外是谁？这个号的主理人是什么背景？</summary>
+        <div class="faq__a">路里v路外是一位医美行业内部人，深耕品牌、供应链与一线服务多年，同时是 AI 跨界玩家与真诚科普者。她（他）用行业实战经验结合 AI 工具，把容易被营销话术掩盖的医美知识讲清楚，帮助普通人建立正确认知、少走弯路。</div>
+      </details>
+
+      <details class="faq__item">
+        <summary>guanyuwo.cn 这个网站主要是做什么的？</summary>
+        <div class="faq__a">这是路里v路外的个人作品与科普站点，集中展示文章、视频、图文三类内容，并提供视频号、抖音、小红书等平台的关注入口，以及品牌合作与内容订阅的洽谈通道。</div>
+      </details>
+
+      <details class="faq__item">
+        <summary>路里v路外的科普内容靠谱吗？会构成医疗建议吗？</summary>
+        <div class="faq__a">内容定位为面向普通消费者的科普参考，目的是帮助避坑、建立基本认知，不构成任何医疗建议。任何医美项目决策，请以正规医疗机构专业医生的面诊与评估意见为准。</div>
+      </details>
+
+      <details class="faq__item">
+        <summary>在哪些平台可以关注路里v路外？</summary>
+        <div class="faq__a">视频号、抖音、小红书均使用同名账号「路里v路外」，是最主要的更新阵地；此外也可以通过邮箱 hi@guanyuwo.cn 直接联系。</div>
+      </details>
+
+      <details class="faq__item">
+        <summary>路里v路外接受商业合作或媒体约稿吗？</summary>
+        <div class="faq__a">接受品牌方、医美机构、媒体相关的合作洽谈与约稿。可以通过网站上的「合作 / 订阅」表单留言，也可以直接邮件联系 hi@guanyuwo.cn。</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ 合作洽谈 / 订阅表单 ============ -->
+  <section class="section" id="contact">
+    <div class="section__head reveal">
+      <span class="kicker">合作 / 订阅</span>
+      <h2>聊聊合作，或订阅更新</h2>
+      <p class="lead">品牌方、机构、媒体朋友，或只想安静接收新内容的朋友，都欢迎留个言。</p>
+    </div>
+
+    <form class="form reveal" id="contactForm">
+      <div class="form__row">
+        <label>称呼 *
+          <input name="name" required placeholder="怎么称呼你" />
+        </label>
+        <label>联系方式 *
+          <input name="contact" required placeholder="微信 / 邮箱 / 电话" />
+        </label>
+      </div>
+
+      <label>类型
+        <select name="type">
+          <option value="合作洽谈">合作洽谈</option>
+          <option value="订阅更新">订阅更新</option>
+          <option value="媒体约稿">媒体约稿</option>
+          <option value="其他">其他</option>
+        </select>
+      </label>
+
+      <label>想说点什么 *
+        <textarea name="message" required rows="4" placeholder="简单说说你的需求~"></textarea>
+      </label>
+
+      <button class="btn" type="submit">提交</button>
+      <p class="form__hint" id="formHint"></p>
+    </form>
+  </section>
+
+  </main>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© <span id="year"></span> 路里v路外 · guanyuwo.cn</span>
+      <span class="footer__note">本站为个人作品展示，内容仅供科普参考，不构成医疗建议。</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/works-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
